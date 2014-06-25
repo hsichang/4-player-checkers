@@ -1,0 +1,61 @@
+<!doctype html>
+	<head>
+		<title>C4ECK4RS!</title>
+		<meta charset="utf-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png"  />
+		<link rel="stylesheet" href="./css/checkers.css">
+		<link rel="stylesheet" href="./css/960.css">
+		<link rel="stylesheet" href="./css/normalize.css">
+		<!-- <link rel="stylesheet" href="./css/style.css"> -->
+		
+		<script src="./js/jquery-1.8.2.js"></script>
+
+		<!-- parse -->
+		<script src="http://www.parsecdn.com/js/parse-1.1.6.min.js"></script>
+
+		<!-- <script src="template.js"></script> -->
+		<script src="./js/checkers.js"></script>
+
+		<!-- external fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+		<div id="banner">C4ECKERS</div>
+		
+		<div id="game" class="container_12">
+			<div id="scoreboard" class="grid_4">
+				<div class="title">Players</div>
+				<div id="playerName1" class="player">Player 1</div>
+				<div id="playerName2" class="player">Player 2</div>
+				<div id="playerName3" class="player">Player 3</div>
+				<div id="playerName4" class="player">Player 4</div>
+			</div>
+				
+			<div id="board" class="grid_8"></div>
+
+		</div><!-- #game -->
+
+<!-- 
+		<div id="tally" class="container_12">
+			
+			<div class="grid_2">&nbsp;</div>
+			
+			<div id="score_1" class="score grid_2">0 points</div>
+			<div id="score_2" class="score grid_2">0 points</div>
+			<div id="score_3" class="score grid_2">0 points</div>
+			<div id="score_4" class="score grid_2">0 points</div>
+			
+			<div class="grid_2">&nbsp;</div>
+			
+		</div> --><!-- #score -->
+
+		<div id="upNext" class="move grid_4">Waiting for players to begin</div>
+
+		<div pub-key="pub-25637e29-2c56-47d2-bff6-fa07d32af57e" sub-key="sub-21d1b240-84d0-11e1-ba5c-7fe5eafa2ee3" ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
+		<script src="http://cdn.pubnub.com/pubnub-3.1.min.js"></script>
+
+	</body>
+	</html>

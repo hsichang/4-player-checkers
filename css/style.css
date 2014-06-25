@@ -1,0 +1,112 @@
+
+/*
+Author: Hsi-Chang Lin
+Name: style.css;
+Website: ch4ckers;
+Page: index.html;
+*/
+
+body {
+	background-color:blue;
+	background: url('../images/juegos.jpg');	
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+header{
+	width: 800px;
+	margin: 150px auto 0 auto;
+	text-align: center;
+}
+
+#main {
+	background: #000;
+	border-radius: 25px;
+	opacity: .8;
+
+	width: 600px;
+	min-height: 300px;
+	border-radius: 20px;
+	
+	margin: 55px auto 0 auto;
+}
+
+#encyclopedia {
+	width: 300px;
+	background-color: white;
+	opacity: .8;
+	color: black;
+
+	margin: 10px auto 0 600px;
+
+	padding: 0px 10px 0 10px;
+}
+
+#name {
+	width: 595px;
+	padding: 0;
+	height: 55px;
+	font-size: 50px;
+	color: black;
+	font-family: arial, helvetica, sans-serif;
+
+}
+h1{
+	font-family: 'Philosopher', sans-serif;
+	font-size: 80px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+h2{
+	font-size: 25px;
+	background: #35C0F2;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+h3 {
+	font-family: 'Duru-Sans', sans-serif;
+
+	font-size: 45px;
+	color: white;
+	letter-spacing: 0px;
+
+	text-align: center;
+
+	padding: 20px 0 0 0;
+}
+
+h4 {
+
+	font-size: 30px;
+	font-family: 'Philosopher', sans-serif;
+}
+
+h5 {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 26px;
+}
+
+#enter{
+	text-decoration: none;
+
+	display: block;
+	width: 300px;
+	background-color: gray;
+	border: 1px white solid;
+
+	height: 50px;
+	padding: 0; 
+	margin: 30px auto;
+
+	text-align: center;
+
+	color: black;
+	font-size: 30px;
+}
